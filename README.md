@@ -65,6 +65,7 @@ The program should establish a serial connection and reset the board to default 
 
 ## Proposed Moving Dynamic Time Warping (MDTW) Technique
 ### System setup 
+![alt text](https://github.com/GPrathap/OpenBCI_Python/blob/master/images/data_acquisition.pdf)
 ![](../master/images/data_acquisition.pdf)
 ### Unprocessed EMG signals 
 ![](../master/images/RAW_EMG_SIGNALS.pdf)
