@@ -65,24 +65,23 @@ The program should establish a serial connection and reset the board to default 
 
 ## Proposed Moving Dynamic Time Warping (MDTW) Technique
 ### System setup 
-![](../master/images/seated.tif)
-![](../master/images/data_acquisition.pdf)
+![](../master/images/data_acquisition.png)
 ### Unprocessed EMG signals 
-![](../master/images/RAW_EMG_SIGNALS.pdf)
+![](../master/images/RAW_EMG_SIGNALS.png)
 ### Kinect angles 
-![](../master/images/kinect_angles_raw.pdf)
+![](../master/images/kinect_angles_raw.png)
 ### Reconstructed kinect angles using SSA
-![](../master/images/kinect_angles_reconstructed.pdf)
+![](../master/images/kinect_angles_reconstructed.png)
 ### Desired Pattern Identification
-![](../master/images/bicep_motion_of_interest.pdf)
-![](../master/images/straight_up_motion_of_interest.pdf)
+![](../master/images/bicep_motion_of_interest.png)
+![](../master/images/straight_up_motion_of_interest.png)
 ### Apply Moving Dynamic Time Warping (MDTW) on Kinect Angle (elbow)
-![](../master/images/dtw_mapping.pdf)
+![](../master/images/dtw_mapping.png)
 ### Detecting Local Minima of Distance Vector
-![](../master/images/local_minima_with_0_5.pdf)
-![](../master/images/local_minima_with_recursive.pdf)
+![](../master/images/local_minima_with_0_5.png)
+![](../master/images/local_minima_with_recursive.png)
 ### Extracting Labeled Samples
-![](../master/images/dwt_result.pdf)
+![](../master/images/dwt_result.png)
 
 
 
