@@ -63,15 +63,25 @@ Ex Linux:
 
 The program should establish a serial connection and reset the board to default settings. When a '-->' appears, you can type a character (character map http://docs.openbci.com/software/01-OpenBCI_SDK)  that will be sent to the board using ser.write. This allows you to change the settings on the board. 
 
-### Proposed Moving Dynamic Time Warping (MDTW) Technique
-
-## Desired Pattern Identification
-
-## Apply Moving Dynamic Time Warping (MDTW) on Kinect Angle (elbow)
-
-## Detecting Local Minima of Distance Vector
-
-## Extracting Labeled Samples
+## Proposed Moving Dynamic Time Warping (MDTW) Technique
+### System setup 
+![](../master/images/data_acquisition.pdf)
+### Unprocessed EMG signals 
+![](../master/images/RAW_EMG_SIGNALS.pdf)
+### Kinect angles 
+![](../master/images/kinect_angles_raw.pdf)
+### Reconstructed kinect angles using SSA
+![](../master/images/kinect_angles_reconstructed.pdf)
+### Desired Pattern Identification
+![](../master/images/bicep_motion_of_interest.pdf)
+![](../master/images/straight_up_motion_of_interest.pdf)
+### Apply Moving Dynamic Time Warping (MDTW) on Kinect Angle (elbow)
+![](../master/images/dtw_mapping.pdf)
+### Detecting Local Minima of Distance Vector
+![](../master/images/local_minima_with_0_5.pdf)
+![](../master/images/local_minima_with_recursive.pdf)
+### Extracting Labeled Samples
+![](../master/images/dwt_result.pdf)
 
 
 
