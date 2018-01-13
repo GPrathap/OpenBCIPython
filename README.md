@@ -54,11 +54,10 @@ OpenBCISample members:
 ### csv_collect_and_publish.py
 
 
-[This](https://github.com/GPrathap/OpenBCI_Python/blob/master/plugins/csv_collect_and_publish.py) is the newly created plgin which does a few things in row: collect data from openbci board and save it to csv, collect data from Kinect device over UDP and marge with openbci unprocessed data and create a streasm that will be published to processing unit.
+[This](https://github.com/GPrathap/OpenBCI_Python/blob/master/plugins/csv_collect_and_publish.py) is the newly created plugin which does a few things in a row: collect data from the openbci board and save it to csv, collect data from Kinect device over UDP and marge with openbci unprocessed data and create a stream that will be published to processing unit.
 
+Then simply run the code given as an argument the port your board is connected to Ex Linux:
 
-Then simply run the code given as an argument the port your board is connected to:
-Ex Linux:
 > $python csv_collect_and_publish.py -p /dev/ttyUSB0 
 
 The program should establish a serial connection and reset the board to default settings. When a '-->' appears, you can type a character (character map http://docs.openbci.com/software/01-OpenBCI_SDK)  that will be sent to the board using ser.write. This allows you to change the settings on the board. 
